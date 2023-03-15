@@ -9,7 +9,7 @@ if [ $selection == "1" ] then
   if [ "$OSTYPE" == "linux-gnu" ] then
     echo "Detected system: Linux";
     $system = "Linux";
-  else
+  else then
     echo "Your operating system is not in the supported list yet. Join the waitlist or enter a beta test.";
   fi
 fi
