@@ -11,3 +11,5 @@ A small, compact Linux virtual machine. WIP.
 > :warning: Please try to do these with care. Doing without may cause `damage to your device.`
 
 OpenLinux will need a total size of 1 GB or more. You can edit the size accordingly in configuration.
+
+The whole point of OpenLinux is to make running Linux apps easier and awesomer. If we do not meet your requirements, please leave a [issue in the Issues tab](https://github.com/JustAnEric/OpenLinux/issues).
