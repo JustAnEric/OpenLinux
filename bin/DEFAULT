@@ -1,0 +1,6 @@
+##  DEFAULT FILE FOR OPENLINUX.  ##
+##  DO NOT REMOVE AT ALL OR FACE PROBLEMS.  ##
+
+PACKAGES: [
+  pkgs.openlinux
+];
