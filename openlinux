@@ -2,4 +2,9 @@
 echo "We are installing OpenLinux version 1.17 onto your system. Please wait.";
 echo "We are attempting to run sudo commands... Please enter your password if you get prompted.";
 sudo ./reporter/worked.sh;
-echo ""
+echo "We are making the OpenLinux caching directory...";
+mkdir ~/.openlinux/
+cd ~/.openlinux/
+mkdir -p ./.store/
+mkdir -p ./errors/
+mkdir -p ./.temporary/
