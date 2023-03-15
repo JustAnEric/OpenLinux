@@ -1,0 +1,8 @@
+#!/bin/python3
+import os,json,time,re
+
+try:
+  while True:
+    cmd=input("openlinux@penguin: ~: ")
+    os.system(cmd)
+except KeyboardInterrupt: pass;
