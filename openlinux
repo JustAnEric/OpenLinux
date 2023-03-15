@@ -8,3 +8,5 @@ cd ~/.openlinux/
 mkdir -p ./.store/
 mkdir -p ./errors/
 mkdir -p ./.temporary/
+cd ./.temporary/
+ wget --no-parent -r https://openlinux.justaneric.online/required/setup
