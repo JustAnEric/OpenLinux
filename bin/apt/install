@@ -1,0 +1,4 @@
+#!/bin/sh
+package = $1;
+# grab package and install it.
+echo "Installing $package ... Please wait while OpenLinux handles your installation.";
