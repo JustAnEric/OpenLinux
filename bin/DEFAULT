@@ -2,5 +2,8 @@
 ##  DO NOT REMOVE AT ALL OR FACE PROBLEMS.  ##
 
 PACKAGES: [
-  pkgs.openlinux
+  pkgs.openlinux,
+  pkgs.nano,
+  pkgs.cowsay,
+  pkgs.pip
 ];
