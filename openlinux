@@ -3,10 +3,10 @@ echo "Please select and install a module."
 echo "1) OpenLinux";
 read selection
 echo "We are installing your module selected. Please wait.";
-if [ $selection == "1" ] then
+if [ $selection == "1" ]; then
   $system = "";
   echo "Installing OpenLinux...";
-  if [ "$OSTYPE" == "linux-gnu" ] then
+  if [ "$OSTYPE" == "linux-gnu" ]; then
     echo "Detected system: Linux";
     $system = "Linux";
   else then
