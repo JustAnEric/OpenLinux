@@ -9,3 +9,5 @@ A small, compact Linux virtual machine. WIP.
  - OpenLinux terminal will need to have access to Administrator privilages if you are installing something on your local machine, not the virtual machine.
  
 > :warning: Please try to do these with care. Doing without may cause `damage to your device.`
+
+OpenLinux will need a total size of 1 GB or more. You can edit the size accordingly in configuration.
