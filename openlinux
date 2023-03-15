@@ -1,15 +1,4 @@
 #!/bin/sh
-echo "Please select and install a module."
-echo "1) OpenLinux\n Option > ";
-read selection
-echo "We are installing your module selected. Please wait.";
-if "$selection" == "1"; then
-  $system = "";
-  echo "Installing OpenLinux...";
-  if "$OSTYPE" == "linux-gnu"; then
-    echo "Detected system: Linux";
-    $system = "Linux";
-  else
-    echo "Your operating system is not in the supported list yet. Join the waitlist or enter a beta test.";
-  fi
-fi
+echo "We are installing OpenLinux version 1.17 onto your system. Please wait.";
+echo "We are attempting to run sudo commands... Please enter your password if you get prompted.";
+sudo;
